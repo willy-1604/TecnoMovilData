@@ -7,10 +7,4 @@ import java.time.LocalDateTime;
  * Al ser un record, sus datos son inmutables.
  */
 public record RegistroTransporte(
-        String idUsuario,
-        String ruta,
-        String estacion,
-        String accion,
-        LocalDateTime timestamp
-) {
-}
+       
